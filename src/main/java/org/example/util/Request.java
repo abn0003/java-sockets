@@ -1,10 +1,10 @@
 package org.example.util;
 
 public class Request {
-    private String method; // = RequestParser.parseMethod(requestLine);
-    private String requestLine;// = RequestParser.extractPath(requestLine);
-    private String path; //= RequestParser.parsePath(fullPath);
-    private String body; //= RequestParser.readRequestBody(in);
+    private String method;
+    private String requestLine;
+    private String path;
+    private String body;
 
     public String getMethod() {
         return method;
